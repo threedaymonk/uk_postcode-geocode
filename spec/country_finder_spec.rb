@@ -1,4 +1,4 @@
-require "uk_postcode"
+require "uk_postcode-geocode"
 
 describe UKPostcode do
   it "finds the country of a full postcode in England" do
@@ -26,7 +26,7 @@ describe UKPostcode do
     expect(described_class.parse("BT4").country).to eq(:northern_ireland)
   end
 
-  it "returns :unknown for an ambiguous partial postcode" do
+  it "finds the countries of an ambiguous partial postcode" do
     expect(described_class.parse("DG16").country).to eq(:unknown)
   end
 end

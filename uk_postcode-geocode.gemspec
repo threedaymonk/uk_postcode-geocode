@@ -1,14 +1,14 @@
 $LOAD_PATH.unshift File.expand_path("../lib", __FILE__)
-require "uk_postcode/version"
+require "uk_postcode/geocode/version"
 
 Gem::Specification.new do |s|
-  s.name         = "uk_postcode"
-  s.version      = UKPostcode::VERSION
-  s.summary      = "UK postcode parsing and validation"
-  s.description  = "Parse, validate, and extract sub-fields from UK postcodes"
+  s.name         = "uk_postcode-geocode"
+  s.version      = UKPostcode::Geocode::VERSION
+  s.summary      = "UK postcode geocoding"
+  s.description  = "Adds geocoding to uk_postcode"
   s.author       = "Paul Battley"
   s.email        = "pbattley@gmail.com"
-  s.homepage     = "http://github.com/threedaymonk/uk_postcode"
+  s.homepage     = "http://github.com/threedaymonk/uk_postcode-geocode"
   s.license      = "MIT"
   s.files        = Dir["README.md", "COPYING.txt", "CHANGES", "lib/**/*"]
   s.require_path = "lib"

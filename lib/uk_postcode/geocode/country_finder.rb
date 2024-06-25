@@ -1,4 +1,4 @@
-require 'uk_postcode/country_lookup'
+require "uk_postcode/geocode/country_lookup"
 
 module UKPostcode
   module CountryFinder

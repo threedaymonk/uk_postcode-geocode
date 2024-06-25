@@ -1,6 +1,6 @@
-require "uk_postcode/tree"
+require_relative "../tools/tree_builder"
 
-describe UKPostcode::Tree do
+describe TreeBuilder do
   subject { described_class.new }
 
   it "builds a nested hash via insert" do
