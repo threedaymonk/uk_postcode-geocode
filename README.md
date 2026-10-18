@@ -1,3 +1,5 @@
+# [Why I'm no longer updating this repository](https://po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository)
+
 # uk_postcode-geocode
 
 Add geocoding to the `uk_postcode` gem.
